@@ -7,8 +7,8 @@ sidebar:
     education: True # set to False if you want an education in the main section instead of in the sidebar
 
     # Profile information
-    name: Kein Chan
-    tagline: Server-Side Engineer<br/>Data Scientist
+    name: 陈启莹
+    tagline: 后端工程师<br/>大数据工程师
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -36,17 +36,11 @@ sidebar:
     word: http://localhost:4000/assets/resume_jp202201.xls
 
     languages:
-      - idiom: Cantonese
-        level: Native
+      - idiom: 日语
+        level: 流畅:JLPT-N1
 
-      - idiom: Mandarin
-        level: Native
-
-      - idiom: Japanese
-        level: Fluent:JLPT-N1
-
-      - idiom: English
-        level: Business:TOEFL-76
+      - idiom: 英语
+        level: 商务:TOEFL-76
 
     interests:
       - item: Java SE8 Gold
@@ -70,16 +64,16 @@ sidebar:
       - item: Google Analytics Advanced
         link:
         
-      - item: JLPT(N1) # (Japanese Language Proficiency Test)
+      - item: 标准日本语N1 # (Japanese Language Proficiency Test)
         link:
       
-      - item: TOEFL (Score:76) # (Test of English as a Foreign Language)
+      - item: 托福76分 # (Test of English as a Foreign Language)
         link:
 
-      - item: Janpanese Certified Financial Planner (level 3)
+      - item: 日本CFP资格3级
         link:
 
-      - item: The Official Business Skills Test in Bookkeeping (2nd Grade)
+      - item: 日本工商簿记资格2级 (2nd Grade)
         link:
 
 brief:
@@ -92,27 +86,27 @@ brief:
       Seeking job opportunities in Macao for family reasons.
 
 career-profile:
-    title: Career Profile
+    title: 个人简介
     summary: |
-      Highly-skilled and motivated senior Server-Side Engineer with over 6 years' experience.<br/>
+      项目经验集中于大数据应用落地,拥有超过6年经验的资深大数据/后端工程师.<br/>
+      曾为日本政府户籍管理科,丰田woven-city,富士菲林,思科,富士通提供服务.<br/>
       <br/>
-      Specialized in data science practical projects including Intelligent Recommendation,
-      Robotics,Self-learning Network Cofigration, OCR.<br/>
+      致力于包括智能推荐系统,人性机械人应用,自动化网络配置,OCR文字识别等数据应用项目.<br/>
+      具备高度的机器学习知识和数据可视化能力.<br/>
+      熟悉数据仓库设计和搭建,具有为日活3400万的社交APP搭建大数据仓库和分析平台的经验.
       <br/>
-      Designed data warehouse models in accordance with spec requirements for APP statistic report 
-      of 50 millions DAU(daily active units).<br/>
-      <br/>
-      Strong competency in machine learning and data visualization.
+      
 
 experiences:
-    - role: Server-Side Engineer Leader
-      time: 2019 - Present
-      company: Outsourcing Technology(TSE Code:2427), Tokyo 
+    - role: 后端工程师
+      time: 2019 - 至今
+      company: Outsourcing Technology(TSE Code:2427), 东京 
       details: |
-        Provided server-side solutions for TRI-AD, Fuji Film(Xerox), and Fujitsu Network Solutions.
-        - Designed and developed a Microstructure Services System that controls and manages over 3000 robots for Smart Logistics in Woven City.
-        - Developed 5 windows applications deploy OCR techs for the census registration system in the Japanese Government.
-        - Developed a network monitoring system that provides network failure self-detection and visualization for network device management in NTT core network by Fujitsu Network Solutions.
+        以后端工程师的身份参与TRI-AD(现Woven planet),富士菲林和富士通网络的开发项目.
+        - 运用微服务系统开发技术,负责设计和开发了丰田智能都市(Woven City)智能物流配送系统的服务端部分. 该系统管理超过3000台配送机器人网络.
+        - 参与富士菲林负责的日本政府户籍科的户籍电子化促进项目,开发了5款windows软件辅助解决户籍系统.
+          通过导入OCR文字识别技术,将扫描图像格式的户籍藤本转换成结构化文字信息,实现将人工识别需十年以上的处理变为数小时以内的自动处理.
+        - 参与富士通网络公司的网络通信干线和网络设备可视化监测平台的开发,为NTT(日本电信)现有的网络线路系统和开发中的5G网络系统提供设备状态监测和网络线路可视化检测和自动故障报警服务.
       description: | 
         abbr:
         - TRI-AD: Toyota Research Institute - Advanced Development.
@@ -120,20 +114,20 @@ experiences:
         - OCR: Optical Character Recognition
         - NTT: Nippon Telegraph and Telephone
 
-    - role: Full Stack Developer
+    - role: 后端工程师
       time: 2018 - 2019
-      company: Oriental Kingdom Group, Tokyo
+      company: Oriental Kingdom Group, 东京
       details: |
-        Provided solutions for Softbank Robotics, Cisco.
-          - Responsible for quality control and bug reports of robot control software inside humanoid robot Pepper and central control server system.
-          - Developed self-learning network-configurations setting modules for large-scale SDN solution.
+        参与软银机器人和思科网络的开发项目.
+          - 参加软银旗下人形机器人Pepper的对企业开发项目,负责设计和执行Pepper管理系统和Pepper的软件项目测试.
+          - 参与开发了思科的SDN工具软件开发,开发了为大规模网络设备设置提供自适应学习功能的模块.
       description: | 
         abbr:
         - SDN: Software-Defined Networking
     
-    - role: Big Data Engineer
+    - role: 大数据工程师
       time: 2015 - 2018
-      company: Lamabang Technology Co., Ltd, Shenzhen
+      company: 辣妈帮科技有限公司, 深圳
       details: |
         Provided data warehouse infrastructure solutions to cope with the increasing data process needs along with fast user-growth of APP from 300,000 to 3,400,000(DAU).<br/>
         Furnish insights, analytics, and business intelligence needed to facility management's decision-making.<br/>
@@ -154,19 +148,19 @@ experiences:
         Check Projects Section for more details 
 
 education:
-    - degree: Master Degree(MEc)
-      university: Osaka University, Japan
+    - degree: 硕士
+      university: 大阪大学, 大阪
       time: 2012 - 2014
       details: |
 
     - degree: 
-      university: Kokusyo Japanese-language school, Japan
+      university: 国书日本语学校, 东京
       time: 2010 - 2011
       details: |
         To prepare for entering exam of doctor program.
 
-    - degree: Bachelor Degree(BJ)
-      university: South China University of Technology,China
+    - degree: 本科
+      university: 华南理工大学, 广州
       time: 2004 - 2008
       details: |
         p.
@@ -303,7 +297,7 @@ publications:
                     ⑦:Introduced machine-learning technology to help create the user profile and analyze user behavior modeling. Increased 3.67% in average of 7 days User Retention Rate</br>
 
 skills:
-    title: Technical Skills
+    title: 技术栈(Technical Skills)
     programming:
           - name: Python
             level: 98%
