@@ -14,26 +14,25 @@ sidebar:
     # Sidebar links
     email: chankeinjp@yahoo.co.jp
     phonecn: 136 7609 1404
-    phonejp: 080 9556 9252
-    website: chankein.github.io/Kein-cv/ #do not add http://
+    website: chankein.github.io/Kein-cv-cn/ #do not add http://
     weixin: chankein
-    line: chankein
+    # line: chankein
     # linkedin: alandoe
     # xing: alandoe
     # github: chankein
     # telegram: # add your nickname without '@' sign
-    gitlab:
+    # gitlab:
     # http://localhost:4000/assets/resume_cn.pdf
     # https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
-    resume: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
+    # resume: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
     # bitbucket:
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
-    excel: http://localhost:4000/assets/resume_jp202201.xls
-    word: http://localhost:4000/assets/resume_jp202201.xls
+    # pdf: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
+    # excel: http://localhost:4000/assets/resume_jp202201.xls
+    # word: http://localhost:4000/assets/resume_jp202201.xls
 
     languages:
       - idiom: 日语
@@ -64,17 +63,6 @@ sidebar:
       - item: Google Analytics Advanced
         link:
         
-      - item: 标准日本语N1 # (Japanese Language Proficiency Test)
-        link:
-      
-      - item: 托福76分 # (Test of English as a Foreign Language)
-        link:
-
-      - item: 日本CFP资格3级
-        link:
-
-      - item: 日本工商簿记资格2级 (2nd Grade)
-        link:
 
 brief:
     title: About Me
@@ -86,13 +74,19 @@ brief:
       Seeking job opportunities in Macao for family reasons.
 
 career-profile:
-    title: 个人简介
+    title: 个人职业简介(Career Profile)
     summary: |
-      项目经验集中于大数据应用落地,拥有超过6年经验的资深大数据/后端工程师.<br/>
-      曾为日本政府户籍管理科,丰田woven-city,富士菲林,思科,富士通提供服务.<br/>
+      项目经验集中于大数据应用落地,拥有超过6年经验的资深大数据/后端工程师.
       <br/>
-      致力于包括智能推荐系统,人性机械人应用,自动化网络配置,OCR文字识别等数据应用项目.<br/>
-      具备高度的机器学习知识和数据可视化能力.<br/>
+      曾为日本政府户籍管理科,丰田Woven-city,富士胶片,思科,富士通提供系统开发服务.
+      <br/>
+      <br/>
+      致力于包括智能推荐系统,人性机械人应用,自动化网络配置,OCR文字识别等数据应用项目.
+      <br/>
+      <br/>
+      具备高度的机器学习知识和数据可视化能力.
+      <br/>
+      <br/>
       熟悉数据仓库设计和搭建,具有为日活3400万的社交APP搭建大数据仓库和分析平台的经验.
       <br/>
       
@@ -108,11 +102,11 @@ experiences:
           通过导入OCR文字识别技术,将扫描图像格式的户籍藤本转换成结构化文字信息,实现将人工识别需十年以上的处理变为数小时以内的自动处理.
         - 参与富士通网络公司的网络通信干线和网络设备可视化监测平台的开发,为NTT(日本电信)现有的网络线路系统和开发中的5G网络系统提供设备状态监测和网络线路可视化检测和自动故障报警服务.
       description: | 
-        abbr:
-        - TRI-AD: Toyota Research Institute - Advanced Development.
-        - Woven City: A future city that provides the latest mobility solutions with over 3000 residents built by the Toyota group.
-        - OCR: Optical Character Recognition
-        - NTT: Nippon Telegraph and Telephone
+        名词解释:
+        - TRI-AD: Toyota Research Institute - Advanced Development.丰田集团的核心研发机构
+        - Woven City: 位于日本静冈县内,可供超过3000户居民居住的小区.是由丰田集团主导开发用于展示未来人类居住概念的智能都市.
+        - OCR: Optical Character Recognition,文字识别技术
+        - NTT: Nippon Telegraph and Telephone,日本电信
 
     - role: 后端工程师
       time: 2018 - 2019
@@ -122,30 +116,21 @@ experiences:
           - 参加软银旗下人形机器人Pepper的对企业开发项目,负责设计和执行Pepper管理系统和Pepper的软件项目测试.
           - 参与开发了思科的SDN工具软件开发,开发了为大规模网络设备设置提供自适应学习功能的模块.
       description: | 
-        abbr:
-        - SDN: Software-Defined Networking
+        名词解释:
+        - SDN: Software-Defined Networking,软件定义网络.
     
     - role: 大数据工程师
       time: 2015 - 2018
       company: 辣妈帮科技有限公司, 深圳
       details: |
-        Provided data warehouse infrastructure solutions to cope with the increasing data process needs along with fast user-growth of APP from 300,000 to 3,400,000(DAU).<br/>
-        Furnish insights, analytics, and business intelligence needed to facility management's decision-making.<br/>
-        Monitored and diagnosed for data fluctuation exception.
-          - Developed an ETL data pipeline using SQL, Shell scripts, Python scripts, scala scripts from various sources that process daily data over 50 TB.
-          - Designed data warehouse models in accordance with spec requirements for APP statistic report of 50 millions DAU.
-          - Transformed business propositions into quantitative queries and then collected/cleaned necessary data. Created over 200 quantitative reports each year at the request of the Market Operation Department, Advertising Department, and the BI Department.
-          - Developed an API server to provide data support for server-side development teams.
-          - Developed an OSS system under database team with over 12 sections of data visualization web pages for routine data analyzing.
-          - Introduced machine-learning technology to help business decision-making.
-          
+        伴随着辣妈帮APP及其姐妹APP用户的快速增长,原有的数据处理和数据仓库系统变得难以满足日渐膨胀的数据量.
+        - 在我任职期间,参与设计和配置了新的数据仓库,满足了用户日活跃量从30万到340万的数据处理和存储需求.
+        - 因应临时数据需求,每年提供超过2000份数据提取汇报纪录.
+        - 在数据组内共同开发了OSS系统作为日常数据统计指标计算和展示,为公司内多个部门提供数据支持.
+        - 通过建立用户画像分析,A/B Test技术,为公司的用户开发策略,数据驱动开发提供了数据决策支持.
       description: | 
-        abbr:
-        - DAU: Daily Active Units
-        - ETL: Extract-Transform-Load
-        - BI : Business Intelligence
-
-        Check Projects Section for more details 
+        名词解释:
+        - ETL: Extract-Transform-Load,数据抽取、转换和加载
 
 education:
     - degree: 硕士
@@ -166,45 +151,49 @@ education:
         p.
     
 projects:
-    title: Areas of Expertise
+    title: 专业技能(Areas of Expertise)
     intro: >
-      Besides well-designed data engineering skills, I have highly effective software development skills, as well as good research skills.
+      拥有良好的编程能力,高性能系统设计技术,具备丰富的大数据应用开发经验,以及多语言的调查研究能力.
     assignments:
-      - title: Data Architecture & Design
+      - title: 数据仓库设计及设置
         link: "#"
-        tagline: "Design & Data architecture for business requirement"
+        tagline: "丰富的数据库知识,具备将业务数据抽象成数据结构,独立设置数据仓库的能力."
 
-      - title: Data Visualzation
+      - title: 数据流实时处理
         link: "#"
-        tagline: "Quick data visualizing by Power BI, Customize visualizing development"
+        tagline: "通过SQL,Java,Scala,Python编写ETL处理开发,实现高效的数据流处理运算支持."
 
-      - title: Data Mining
+      - title: 数据可视化
         link: "#"
-        tagline: "Furnish insights, analytics, and business intelligence needed to the facility management's decision-making"
+        tagline: "除熟练掌握Power BI进行快速可视化页面制作外,也具有运用开发框架进行定制化数据可视化页面开发能力."
 
-      - title: Windows Apps Developing
+      - title: 数据挖掘
         link: "#"
-        tagline: "Develop windows Apps by C# & WPF framework"
+        tagline: "通过数据挖掘技术应用,为用户分析,数据驱动开发和商业决策提供数据支持."
 
-      - title: Software Quality Control
+      - title: Windows软件开发
         link: "#"
-        tagline: "Design & Conduct Test Case for Software Quality Control"
+        tagline: "以C#和WPF框架开发Windows小型程序的开发经验."
 
-      - title: Program Languages
+      - title: 软件测试
         link: "#"
-        tagline: "Good experience in Python, Java, and C#"
+        tagline: "具备独立设计测试项,执行软件测试经验,以为开发项目提供质量控制提供支持."
 
-      - title: Highly Effective Algorithm
+      - title: 编程语言
         link: "#"
-        tagline: "Always looking for improvement for higher effective algorithm"
+        tagline: "熟练掌握Python, Java,和C#编程语言."
 
-      - title: Nature Languages
+      - title: 算法知识
         link: "#"
-        tagline: "Being able to handle multiple working languages - Chinese, Japanese, and English"
+        tagline: "不断精进编程算法技术,曾通过重构代码将运算用时从700天加速到10分钟以内."
 
-      - title: Problem-solving
+      - title: 自然语言
         link: "#"
-        tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
+        tagline: "除母语的普通话,粤语外,精通日英双语,可满足日常工作和技术调查需要."
+
+      - title: 问题定位和解决
+        link: "#"
+        tagline: "丰富的问题(bug)调查和系统资源优化经验."
 
 publications:
     title: Projects
@@ -299,101 +288,35 @@ publications:
 skills:
     title: 技术栈(Technical Skills)
     programming:
-          - name: Python
-            level: 98%
-
-          - name: R
-            level: 90%
-
-          - name: Java
-            level: 90%
-
-          - name: Scala
-            level: 90%
-          
-          - name: C#
-            level: 75%
-
+          - name: Python,Java,Scala,C#
 
     database:
-          - name: Mysql
-            level: 90%
-
-          - name: PostgreSQL
-            level: 90%
-
-          - name: OracleDB
-            level: 90%
-
-          - name: Hadoop
-            level: 75%
+          - name: Mysql,PostgreSQL,OracleDB
 
     dataVisualization:
-          - name: Power BI
-            level: 90%
-
-          - name: Excel
-            level: 90%
+          - name: PowerBI,Excel
 
     versionControl:
-          - name: Github
-            level: 90%
-
-          - name: Git
-            level: 75%
+          - name: Github,Git
 
     platform:
-          - name: Linux
-            level: 90%
+          - name: Linux,Windows,MacOS
 
-          - name: Windows
-            level: 75%
-
-          - name: MacOS
-            level: 50%
 
     cloudComputing:
           - name: AWS
-            level: 50%
 
     containerTechnology:
-          - name: Docker
-            level: 90%
+          - name: Docker,Vagrant,Ansible
 
-          - name: Vagrant
-            level: 75%
-
-          - name: Ansible
-            level: 75%
     framework:
-          - name: Flask
-            level: 75%
-
-          - name: Django
-            level: 75%
-
-          - name: Spring Boot
-            level: 75%
-
-          - name: WPF
-            level: 75%
+          - name: Flask,Django,Spring Boot,WPF
 
     testTools:
-          - name: Pytest
-            level: 75%  
-
-          - name: JUnit
-            level: 75% 
-
-          - name: Selenium
-            level: 75% 
-
-          - name: Postman
-            level: 75% 
+          - name: Pytest,Junit,Selenium,Postman
 
     UIDesign:
           - name: Photoshop
-            level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by Chan Kein
