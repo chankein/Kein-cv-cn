@@ -74,7 +74,7 @@ brief:
       Seeking job opportunities in Macao for family reasons.
 
 career-profile:
-    title: 个人职业简介(Career Profile)
+    title: 职业简介(Career Profile)
     summary: |
       项目经验集中于大数据应用落地,拥有超过6年经验的资深大数据/后端工程师.
       <br/>
@@ -319,4 +319,4 @@ skills:
           - name: Photoshop
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by Chan Kein
+    本在线简历由Chan Kein开发.
